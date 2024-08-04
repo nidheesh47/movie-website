@@ -35,7 +35,7 @@ function Header() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link fw-medium" href="#">
-                    IMDB
+                    IMDB TOP
                   </a>
                 </li>
                 <li className="nav-item dropdown">
