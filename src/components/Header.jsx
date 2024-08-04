@@ -10,7 +10,7 @@ function Header() {
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <img
-               src="./src/assets/image/logo-om.png"
+               src="/image/logo-om.png"
                 alt=""
                 style={{ width: '200px' }}
               />
