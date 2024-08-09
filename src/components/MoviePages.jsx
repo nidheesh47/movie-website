@@ -4,6 +4,8 @@ import MovieList from './MovieList';
 import Footer from './Footer';
 import { movies } from '../helpers/constants';
 
+
+
 function MoviePages() {
   return (
     <div>

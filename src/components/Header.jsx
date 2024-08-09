@@ -51,7 +51,7 @@ function Header() {
                   <ul className="dropdown-menu">
                     {movies.map((movie, index) => (
                       <li key={index}>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href={`#${movie.title}`}>
                           {movie.title}
                         </a>
                       </li>
