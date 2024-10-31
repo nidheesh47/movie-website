@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Movie({ title, image, description }) {
   return (
@@ -11,9 +11,11 @@ function Movie({ title, image, description }) {
         />
         <div className="card-body cardFlex pt-2 mt-2">
           <h5 className="card-title fw-bold fs-4">{title}</h5>
-          <p className="card-text textCard text-secondary fw-medium fs-6">{description}</p>
+          <p className="card-text textCard text-secondary fw-medium fs-6">
+            {description}
+          </p>
           <div className="text-end d-flex flex-column">
-            <a className="pt-2 btn btn-warning mb-2">Download</a>
+            <a className="pt-2 btn btn-warning mb-2">Download Now</a>
             <a href="#" className="btn btn-primary border-2">
               Watch Now
             </a>
